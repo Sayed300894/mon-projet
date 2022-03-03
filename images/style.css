@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css?family=Handlee|Roboto&display=swap");
+@font-face {
+  font-family: 'Roboto', 'Handlee';
+  font-display: auto;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  padding: 0;
+  margin: 0;
+}
+/*MENU*/
+.backgNav {
+  background-image: url("https://raw.githubusercontent.com/PierreDenaes/UTOPLAB-Simplon/master/Exercices_html_css/exo-4/background_pattern.png");
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.ulNav {
+  margin-right: 5%;
+}
+li {
+  padding-right: 3%;
+  text-align: left;
+}
+.flex-fill {
+  flex: 1;
+}
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+.logo-center {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8em;
+  padding-left: 5%;
+}
+.logo {
+  width: 100px;
+}
+.nav-link {
+  line-height: 1;
+}
+.padNav {
+  padding-top: 12%;
+  font-size: 14px;
+}
+.padNav2 {
+  font-size: 14px;
+}
+.padNav3 {
+  font-size: 14px;
+  padding-top: 10%;
+}
+.home-menu {
+  border-bottom: 5px solid #f76801;
+  font-weight: bold;
+}
+.company-menu {
+  border-bottom: 5px solid #fbd049;
+  font-weight: bold;
+}
+.portfolio-menu {
+  border-bottom: 5px solid #9ec64b;
+  font-weight: bold;
+}
+.product-menu {
+  border-bottom: 5px solid #3f91c1;
+  font-weight: bold;
+}
+.blog-menu {
+  border-bottom: 5px solid #c078d0;
+  font-weight: bold;
+}
+/*photo band*/
+.divider {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  border: 1px solid #f0f0f0;
+}
+.rowMargin {
+  text-align: center;
+  padding-left: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.imgRow1 {
+  border: 2px solid #f0f0f0;
+  padding: 10px;
+}
+/*Middle Sentence*/
+.divider2 {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  border: 1px solid #f0f0f0;
+}
+.middleSentence {
+  width: 100%;
+  background-image: url("https://raw.githubusercontent.com/PierreDenaes/UTOPLAB-Simplon/master/Exercices_html_css/exo-4/background_pattern.png");
+  text-align: center;
+}
+.middleS {
+  margin: 0;
+  padding: 3% 8% 3% 8%;
+  font-size: 1.5em;
+  font-family: "Handlee", cursive;
+  color: #6f6f6f;
+  font-weight: bold;
+}
+.lineColor {
+  text-decoration: underline;
+  text-decoration-color: #ea7927;
+}
+/*Section articles*/
+.rowMargin2 {
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.article1 {
+  border: 1px solid #f0f0f0;
+  box-shadow: 3px 3px 5px 2px #f6f6f6;
+  padding-top: 2%;
+}
+.article2,
+.article3 {
+  padding-top: 2%;
+}
+h3 {
+  color: #ea7927;
+  font-weight: bold;
+}
+h6 {
+  font-style: italic;
+  color: #b2b2b2;
+  font-size: 14px;
+}
+.pArticle1 {
+  font-size: 14px;
+  color: #767676;
+  margin: 0;
+  padding-bottom: 2%;
+}
+.pArticle2 {
+  font-size: 14px;
+  color: #767676;
+  padding-bottom: 5%;
+}
+.pArticle3 {
+  padding-top: 5%;
+  font-size: 14px;
+  color: #767676;
+}
+.fishPicture {
+  width: 100%;
+  margin-bottom: 8%;
+  padding-right: 5%;
+}
+.readMore {
+  color: #a1a1a1;
+  font-size: 14px;
+}
+.readMore:hover {
+  color: #ea7927;
+  text-decoration: none;
+}
+iframe {
+  padding-top: 5%;
+  border: none;
+}
+/*CONTACT*/
+.contactRow {
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  background-image: url("https://raw.githubusercontent.com/PierreDenaes/UTOPLAB-Simplon/master/Exercices_html_css/exo-4/background_pattern.png");
+  color: #767676;
+}
+h5 {
+  color: #a1a1a1;
+  padding-bottom: 3%;
+}
+i {
+  padding-right: 2%;
+}
+.fa-home,
+.fa-headset,
+.fa-envelope,
+.fa-life-ring {
+  color: #bbbbbb;
+}
+.ulContact {
+  padding: 0;
+  line-height: 1.9;
+  font-size: 14px;
+}
+.spanCity {
+  padding-left: 10%;
+}
+li {
+  list-style-type: none;
+}
+.infoComp,
+.supportComp {
+  color: #bbb;
+  text-decoration: underline;
+}
+/*FOOTER*/
+.rowMargin3 {
+  padding-top: 2%;
+}
+.menuFooter li {
+  display: block;
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-right: 1px solid black;
+}
+.menuFooter li a {
+  color: #767676;
+}
+.menuFooter li:last-of-type {
+  border-right: none;
+}
+.Pfooter {
+  padding-left: 8%;
+  color: #bbb;
+}
+.fa-at,
+.fa-twitter,
+.fa-facebook,
+.fa-google-plus,
+.fa-github,
+.fa-free-code-camp {
+  color: #888888;
+}
+.alignIcon {
+  text-align: center;
+}

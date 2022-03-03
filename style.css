@@ -1,0 +1,84 @@
+#header{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(images/pattern.webp);
+}
+#image1{
+    width:100px;
+    height: 110px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#Orang{
+    border: solid 2px coral;
+}
+#Key{
+    display: flex;
+    justify-content: space-around;
+}
+#Yellow{
+    border: solid 2px yellow;
+}
+#Green{
+    border: solid 2px green;
+}
+#blue{
+    border: solid 2px blue;
+}
+#violet{
+    border: solid 2px violet;
+}
+#img1{
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-left: 300px;
+    width: 13%;
+}
+#img2{
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-left: 100px;
+    width: 13%;
+    height: 15%;
+}
+#img3{
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-left: 100px;
+    width: 13%;
+    height: 15%;
+}
+#img4{
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-left: 100px;
+    width: 13%;
+    height: 15%;
+}
+#part2{
+    font-size: 200%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-image: url(images/pattern.webp);
+}
+#part3{
+    margin-left: 5px;
+    padding-left: 100px;
+    border: solid 1px;
+}
+#color{
+    color: coral;
+}
+#products{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60PX;
+}
+#foder{
+    background-image: url(images/pattern.webp);
+}
+#icon{
+    width: 25px;
+    height: 35px;
+}
