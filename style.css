@@ -1,0 +1,429 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: url(images/pattern.webp);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#imagelogo{
+    width:100px;
+    height: 110px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.logo {
+    text-align: center;
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+.menu{
+    width: 55px;
+    height: 55px;
+    z-index: 3;
+    display: block;
+   
+    cursor: pointer;
+}
+.menu .burger{
+   width: 40px;
+   height: 4px;
+   border-radius: 10px;
+   background-color: rgb(0, 0, 0); 
+   
+   display: block;
+
+   
+}
+.menu .burger::after,
+.menu .burger::before{
+    display: block;
+    content: '';
+    width: 40px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.menu .burger::after{
+    transform: translateY(20px);
+}
+.menu .burger::before{
+    transform: translateY(12px);
+}
+header nav {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: fixed;
+    /* background-color: rgb(165, 161, 219); */
+    background-image: url(images/pattern.webp);
+    color: white;
+    transition: transform 0.6s ease-in-out;
+    -webkit-transition: transform 0.6s ease-in-out;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    z-index: 2;
+}
+
+nav.active{
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+}
+.logo.desactive {
+    opacity: 0;
+    transition: opacity .2s linear;
+    
+}
+
+nav li{
+    font-size: 21px;
+    /* margin: 0 40px;
+    padding: 5px 10px; */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+nav li:hover{
+    background-color: white;
+    color: #8b83af;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ulMenu {
+    margin: 20px;
+    padding-right: 5px;
+    color: grey;
+    
+}
+
+li {
+    list-style: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+a:visited {
+    color: black;
+}
+
+li a:link{
+    color: grey;
+}
+.liMenu {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.liMenu a:link{
+    color: grey;
+    font-weight: bolder;
+}
+.liMenu-home {
+    border-bottom: 5px solid var(--home-color);
+}
+.liMenu-company{
+    border-bottom: 5px solid var(--company-color);
+    padding-right: 20px;
+}
+.liMenu-blog{
+    border-bottom: 5px solid var(--portfolio-color);
+}
+.liMenu-portfolio{
+    border-bottom: 5px solid var(--product-color);
+    padding-right: 20px;
+}
+.liMenu-product{
+    border-bottom: 5px solid var(--blog-color);
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.ulMenu .hiddenUl{
+    visibility: hidden;
+}
+.ulMenu:hover .hiddenUl{
+    visibility: visible;
+
+}
+.img-border{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.image{
+
+    transition: all 0.3s;
+}
+.image:hover{
+   display: block;
+    transform: scale(1.2);
+    opacity: 1;
+}
+#img1{
+   
+    border: outset gray;
+    box-shadow: 0 10px 20px rgba(25,25,0,0.19), 15px 20px 20px rgba(25,25,2,0.23);
+    opacity: 0.7;
+}
+#img2{
+    
+    border: outset gray;
+    box-shadow: 0 10px 20px rgba(25,25,0,0.19), 15px 20px 20px rgba(25,25,2,0.23);
+    opacity: 0.7;
+
+}
+#img3{
+   
+    border: outset gray;
+    box-shadow: 0 10px 20px rgba(25,25,0,0.19), 15px 20px 20px rgba(25,25,2,0.23);
+    opacity: 0.7;
+
+}
+#img4{
+    
+    border: outset gray;
+    box-shadow: 0 10px 20px rgba(25,25,0,0.19), 15px 20px 20px rgba(25,25,2,0.23);
+    opacity: 0.7;
+
+    
+}
+#part2{
+    font-size: 200%;
+    padding-top: 60px;
+    padding-bottom: 1%;
+    text-align: center;
+    background-image: url(images/pattern.webp);
+}
+#part3{
+    margin-left: 5px;
+    padding: 20px;
+    border: solid 2px gray;
+    box-shadow: 0 10px 20px rgba(25,25,0,0.19), 15px 20px 20px rgba(25,25,2,0.23)
+}
+.icon0{
+    width: 25px;
+    height: 25;
+    display: inline-block;
+}
+.paragraph{
+    display: flex;
+}
+#color{
+    color: coral;
+}
+#products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    width: 100%;
+    
+}
+#part3{
+margin-right: 30px;
+    max-width: 30%;
+}
+#part4{
+
+margin-right: 30px;
+max-width: 30%;
+}
+#part5{
+display: block;
+text-align: center;
+margin-right: 30px;
+/* max-width: 30%; */
+}
+#icon{
+    width: 45px;
+    height: 65px;
+    float: left;
+}
+#telephon{
+    width: 35px;
+    height: 35;
+    margin-left: -40px;
+}
+.email{
+    width: 30px;
+    height: 35px;
+}
+.support{
+    width: 30px;
+    height: 35px
+}
+#foder{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(images/pattern.webp);
+}
+.icon2{
+    width: 25px;
+    height: 25;
+}
+.icon3{
+    width: 15px;
+    height: 15;
+}
+#F-img{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 05px;
+}
+.Color{
+    color: grey;
+}
+#COMPANY{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 600px){
+    header nav {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        position: fixed;
+        /* background-color: rgb(165, 161, 219); */
+        background-image: url(images/pattern.webp);
+        color: white;
+        transition: transform 0.6s ease-in-out;
+        -webkit-transition: transform 0.6s ease-in-out;
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+    }
+    #products{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        width: 100%;
+        
+    }
+    .Part1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #part5{
+        display: block;
+        text-align: center;
+        margin-right: 30px;
+        /* max-width: 30%; */
+        top: 0;
+        left: 0;
+        width:150px ;
+        margin-left: -140px;
+    }
+    .image{
+
+        transition: all 0.3s;
+    }
+    .image:hover{
+       display: block;
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+        
+    #img1{
+    
+        border: outset gray;
+        box-shadow: 0 10px 20px rgba(25,25,0,0.19), 15px 20px 20px rgba(25,25,2,0.23);
+        opacity: 0.7;
+        width: 49%;
+        height: 89%;
+    }
+    #img2{
+    
+    border: outset gray;
+    box-shadow: 0 10px 20px rgba(25,25,0,0.19), 15px 20px 20px rgba(25,25,2,0.23);
+    opacity: 0.7;
+    width: 49%;
+    height: 89%;
+
+    }
+    #img3{
+        border: outset gray;
+        box-shadow: 0 10px 20px rgba(25,25,0,0.19), 15px 20px 20px rgba(25,25,2,0.23);
+        opacity: 0.7;
+        width: 49%;
+        height: 89%;
+    }
+    #img4{
+   
+        border: outset gray;
+        box-shadow: 0 10px 20px rgba(25,25,0,0.19), 15px 20px 20px rgba(25,25,2,0.23);
+        opacity: 0.7;
+        width: 49%;
+        height: 89%;
+    }
+    #part2{
+        font-size: 200%;
+        padding-top: 60px;
+        padding-bottom: 1%;
+        text-align: center;
+        background-image: url(images/pattern.webp);
+        text-align: center;
+    }
+   #foder{
+        display: block;
+        justify-content: space-around;
+        background-image: url(images/pattern.webp);
+        text-align: center;
+    }
+   #F-img{
+        display: block;
+        justify-content: space-evenly;
+        padding: 40px 05px;
+        text-align: center;
+    }
+    .img-border{
+        flex-direction: column;
+    }
+  .flex-image{ 
+       text-align: center;
+    }
+}
+
+
+/* .conteneur
+{
+position: relative;
+}
+
+.conteneur iframe
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+} */
+/* 
+<div class="conteneur">
+<iframe> sans les propriétés width et height déterminées par le conteneur parent... </iframe>
+</div> */
+
