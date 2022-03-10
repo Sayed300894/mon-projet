@@ -1,93 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon-Projet</title>
     <link rel="stylesheet" href="style.css">
-    <title>Projet</title>
-
 </head>
 <body>
-    <main id="header">
-        <section class="logo">
-            <img src="images/logo.png" alt="Logo" id="image1">
-            <h1>COMPANY LOGO</h1>
+    <header id="head">
+    <div class="logo">
+        <img src="images/logo.png" alt="Logo" id="imagelogo">
+        <h1>COMPANY LOGO</h1>
+    </div>
+    <div class="menu">
+        <span class="burger"></span>
+    </div>
+    <nav>
+        <ul class="ulMenu">
+            <li class="liMenu liMenu-home"><a href="#head">HOME</a></li>
+            <li>
+                <ul class="hiddenUl">
+                    <li><a href="#">Menu style</a></li>
+                    <li><a href="#">Sliders</a></li>
+                    <li><a href="#">More Features</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="ulMenu">    
+            <li class="liMenu liMenu-home"><a href="#Part1">COMPANY</a></li>
+            <li>
+                <ul class="hiddenUl">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Conatct Us</a></li>
+                    <li><a href="#">Custom Pages</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="ulMenu"> 
+            <li class="liMenu liMenu-home"><a href="#part2">PORTFOLIO</a></li>
+            <li>
+                <ul class="hiddenUl">
+                    <li><a href="#">Two Columns</a></li>
+                    <li><a href="#">Three Columns</a></li>
+                    <li><a href="#">More Layout</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="ulMenu">     
+            <li class="liMenu liMenu-home"><a href="#foder">PRODUCT</a></li>
+            <li>
+                <ul class="hiddenUl">
+                    <li><a href="#">Product Category 1</a></li>
+                    <li><a href="#">Product Category 2</a></li>
+                    <li><a href="#">Custom Template</a></li>
+                </ul>
+            </li>
+        </ul>    
+        <ul class="ulMenu">     
+            <li class="liMenu liMenu-home"><a href="#F-img">BLOG</a></li>
+            <li>
+                <ul class="hiddenUl">
+                    <li><a href="#">Post Types</a></li>
+                    <li><a href="#">Latest News</a></li>
+                    <li><a href="#">Custom Blog</a></li>
+                </ul>
+            </li>
+        </ul>  
+        </ul>
+    
+    </nav>
+</header>
+    <hr>
+    <main id="Part1">
+        <section class="img-border">
+            <div class="flex-image">
+                <img src="images/sofa.webp" class="image" id="img1"  alt="image">
+            </div>
+            <div class="flex-image">
+                <img src="images/back_pack.webp" class="image" id="img2" alt="image">
+            </div>
+            <div class="flex-image">
+                <img src="images/projet_css_image3.png" class="image" id="img3" alt="image">
+            </div>
+            <div class="flex-image">
+                <img src="images/projet_css_image4.png" class="image" id="img4" alt="image">
+            </div>   
         </section>
-        <div class="home"><a href="#Home">
-            <h2>HOME</h2></a>
-            <div id="Orang"></div>
-            <p>Menue Styles</p> <p>Sliders</p> <p>More features</p>
-        </div>
-        <section class="company">
-            <a  href="COMPANY">
-            <h2>COMPANY</h2></a>
-            <div id="Yellow"></div>
-            <p>About Us</p> <p>Contact Us</p> <p>Custom Pages</p>
-        </section>
-        <section>
-            <h2>PORTFOLIO</h2>
-            <div id="Green"></div>
-            <p>Two Columns</p> <p>Three Columns</p> <p>More Layouts</p>
-        </section>
-        <section>
-            <h2>PRODUCTS</h2>
-            <div id="blue"></div>
-            <p>Products Catagory 1</p> <p>Products Catagory 2</p> <p>Custom Template</p>
-        </section>
-        <section>
-            <h2>BLOG</h2>
-            <div id="violet"></div>
-            <p>Post Types</p> <p>Latest News</p> <p>Custom Blog</p>
-        </section>
-    </main>
-    <main>
-        <section>
-            <img src="images/sofa.webp" id="img1"  alt="image">
-            <img src="images/back_pack.webp" id="img2" alt="image">
-            <img src="images/projet_css_image3.png" id="img3" alt="image">
-            <img src="images/projet_css_image4.png" id="img4" alt="image">
-
-        </section>
-    </main>
+    </main><hr>
     <main id="part2">
-        <section id="COMPANY">
+        <section id="COMPANY" class="Color">
             Lorem ipsum sit amet, consectur adipisicing elit, sed do eiusmod 
             tempor do eius mod tepor labor et <br>dolore magna aliqua Ut enim
             ad minim veniam.
         </section>
     </main>
     <Main id="products">
-        <Section id="part3">
-            <h1 id="color">WELCOME</h1> <p> Lorem ipsum sit amet</p>
+        <Section id="part3" class="image">
+            <h1 id="color">WELCOME</h1> <p class="Color"><em>Lorem ipsum sit amet</em></p>
             <img src="images/fish.webp" alt="fish">
             <p>Lorem ipsum sit amet, consectetur adipisicing eli,<br>Duis nec purus tellus, quis pulvinar tortor.<br>sed mattis lobortid gravida.</p>
-
+            <p class="paragraph Color"><em><a href="https://www.brandcrowd.com/maker/tag/company">read more</em> <img src="https://img.icons8.com/material-outlined/344/right.png" alt="" class="icon0"></a></p>
         </Section>
-        <section>
+        <section id="part4">
             <h1 id="color">LATEST WORKS</h1>
-            <p><em>sub titile for home page box</em></p>
+            <p class="Color"><em>sub titile for home page box</em></p>
             <p>Lorem ipsum sit amet, consectetur adipisicing eli,<br>Duis nec purus tellus, quis pulvinar tortor.<br>sed mattis lobortid gravida.</p>
             <h1 id="color">OUR PRODUCTS</h1>
             <p> Lorem ipsum sit amet</p>
             <p>Lorem ipsum sit amet, consectetur adipisicing eli,<br>Duis nec purus tellus, quis pulvinar tortor.<br>sed mattis lobortid gravida.</p>
         </section>
-        <section>
+        <section id="part5">
             <h1 id="color">FLEXIBLE PAGES</h1>
-            <p><em>sub titile for home page box</em></p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/nOdDtnHWaDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="Color"><em>sub titile for home page box</em></p>
+            <div class="conteneur"><iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/nOdDtnHWaDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </section>
-    </Main>
+    </Main><hr>
     <Main id="foder">
         <section>
-            <h1>CONTACT DETAILS</h1>
-            <P>
-                <img id="icon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJtNTg4LjYgMzkxLjQtMC4wNjY0MDYtMC4wNjY0MDYtMzYuNzc3LTM5LjIwNy0zNS44MzItMzcuNzczIDAuNzQyMTktNDcuODEyIDAuNjgzNTktNDkuMzc5di0wLjAyMzQzN2MwLjAyNzM0NC0yLjk2MDktMi4zNDc3LTUuMzgyOC01LjMwODYtNS40MTAyaC0wLjExNzE5bC01OC41MzUtMC41MjczNGMtMy4yNTc4LTAuMDI3MzQ0LTUuOTMzNiAyLjU4OTgtNS45NjA5IDUuODUxNnYwLjEwOTM3bC0wLjIxNDg0IDIzLjYyOS0yNi42MjktMjcuNjAyYy0xMi4zOTgtMTIuOTI2LTI0Ljk1Ny0yNS43MDMtMzcuNDY1LTM4LjUxMi0wLjAyMzQzOC0wLjAyMzQzOC0wLjA4MjAzMi0wLjA3MDMxMy0wLjA5NzY1Ny0wLjA5Mzc1LTIuNzY1Ni0yLjcyNjYtNy4yMTg4LTIuNjk1My05Ljk1MzEgMC4wNzAzMTJsLTAuMDI3MzQ0IDAuMDI3MzQ0LTUyLjM4NyA1My4xMzctNTIuMDgyIDUzLjQyNi0xMDMuODkgMTA3LjE0LTAuMDYyNSAwLjA2NjQwNmMtMS4wNzQyIDEuMTA1NS0xLjczNDQgMi42Mjg5LTEuNzIyNyA0LjMwMDggMC4wMTk1MzEgMy4zOTA2IDIuNzg5MSA2LjEyODkgNi4xNzk3IDYuMTA1NWw0NC4zNTktMC4yODEyNSAwLjkxNzk3IDE3NS45NnYwLjA1ODU5M2MwLjAxNTYyNSAyLjY4MzYgMi4yMDcgNC44NTk0IDQuOTAyMyA0Ljg0MzhsMTI5LjYzLTAuNjMyODFoMC4wNDI5NjljMi4zNDM4LTAuMDA3ODEyIDQuMjM4My0xLjkyMTkgNC4yMjI3LTQuMjY1NmwtMC41MTE3Mi0xMDQuOTQgNTEuMzItMC4yNjk1MyAwLjY4NzUgMTA1LjIxdjAuMDM5MDYzYzAuMDA3ODEzIDEuNDkyMiAxLjIzMDUgMi42OTkyIDIuNzI2NiAyLjY5MTRsMTI5LjU5LTAuODQzNzVoMC4wMjczNDRjMS4wMzEyLTAuMDA3ODEzIDEuODcxMS0wLjg1MTU2IDEuODU5NC0xLjg4NjdsLTEuMTgzNi0xODEuMTQgNDkuNDc3IDEuMjM0NGMwLjQ5MjE5IDAuMDA3ODEzIDAuOTgwNDctMC4xNTYyNSAxLjM2MzMtMC41MTU2MiAwLjc3NzM0LTAuNzMwNDcgMC44MjAzMS0xLjk0NTMgMC4wOTc2NTYtMi43MjI3em0tNTEuNjI5IDAuNTk3NjZjLTAuMzc4OTEgMC4wMDc4MTItMC42OTUzMSAwLjMxNjQxLTAuNjk1MzEgMC42OTUzMWwtMS4xNzU4IDE3OS45NS0xMjQuOTgtMC44MTY0MSAwLjY4NzUtMTA1Ljk1YzAuMDA3ODEyLTEuODg2Ny0xLjUtMy40MzM2LTMuMzk0NS0zLjQ0MTRoLTAuMDM5MDYybC01OC40ODgtMC4yOTY4N2MtMi4wNTA4LTAuMDA3ODEzLTMuNzI2NiAxLjY1MjMtMy43MzgzIDMuNjk5MnYwLjAzOTA2M2wtMC41MDc4MSAxMDQuMzgtMTIwLjQ2LTAuNTgyMDMgMC45MjE4Ny0xNzYuOThjMC4wMTk1MzItMy4yMTA5LTIuNTY2NC01LjgyMDMtNS43ODEyLTUuODM5OGgtMC4wNjY0MDZsLTM1LjQ4LTAuMjMwNDcgOTQuODA1LTk1LjU2MiA1Mi40MjItNTMuMTAyIDQ3LjEyMS00OC4yODVjMTAuODkxIDExLjAzOSAyMS43NjYgMjIuMDk4IDMyLjc2MiAzMy4wMzFsMzcuOTkyIDM3Ljk5MiAwLjA5NzY1NiAwLjA5Mzc1YzEuMTUyMyAxLjE0MDYgMi43MzQ0IDEuODQzOCA0LjQ4ODMgMS44MjgxIDMuNDYwOS0wLjAzMTI1IDYuMjYxNy0yLjg3MTEgNi4yMjI3LTYuMzQ3N2wtMC4yOTY4OC0zMy4yMDcgNDcuMTY0LTAuNDIxODggMC42MDE1NiA0My44OTUgMC43NjU2MiA0OS4zNzl2MC4xMzY3MmMwLjAxOTUzMSAwLjk2NDg0IDAuMzk4NDQgMS45MjE5IDEuMTM2NyAyLjY2OGwzOC4yMyAzNy43NzcgMzUuMjAzIDM0LjM5MXoiLz4KPC9zdmc+Cg==" alt="">
+            <h1 class="Color">CONTACT DETAILS</h1>
+            <p>
+             <img id="icon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJtNTg4LjYgMzkxLjQtMC4wNjY0MDYtMC4wNjY0MDYtMzYuNzc3LTM5LjIwNy0zNS44MzItMzcuNzczIDAuNzQyMTktNDcuODEyIDAuNjgzNTktNDkuMzc5di0wLjAyMzQzN2MwLjAyNzM0NC0yLjk2MDktMi4zNDc3LTUuMzgyOC01LjMwODYtNS40MTAyaC0wLjExNzE5bC01OC41MzUtMC41MjczNGMtMy4yNTc4LTAuMDI3MzQ0LTUuOTMzNiAyLjU4OTgtNS45NjA5IDUuODUxNnYwLjEwOTM3bC0wLjIxNDg0IDIzLjYyOS0yNi42MjktMjcuNjAyYy0xMi4zOTgtMTIuOTI2LTI0Ljk1Ny0yNS43MDMtMzcuNDY1LTM4LjUxMi0wLjAyMzQzOC0wLjAyMzQzOC0wLjA4MjAzMi0wLjA3MDMxMy0wLjA5NzY1Ny0wLjA5Mzc1LTIuNzY1Ni0yLjcyNjYtNy4yMTg4LTIuNjk1My05Ljk1MzEgMC4wNzAzMTJsLTAuMDI3MzQ0IDAuMDI3MzQ0LTUyLjM4NyA1My4xMzctNTIuMDgyIDUzLjQyNi0xMDMuODkgMTA3LjE0LTAuMDYyNSAwLjA2NjQwNmMtMS4wNzQyIDEuMTA1NS0xLjczNDQgMi42Mjg5LTEuNzIyNyA0LjMwMDggMC4wMTk1MzEgMy4zOTA2IDIuNzg5MSA2LjEyODkgNi4xNzk3IDYuMTA1NWw0NC4zNTktMC4yODEyNSAwLjkxNzk3IDE3NS45NnYwLjA1ODU5M2MwLjAxNTYyNSAyLjY4MzYgMi4yMDcgNC44NTk0IDQuOTAyMyA0Ljg0MzhsMTI5LjYzLTAuNjMyODFoMC4wNDI5NjljMi4zNDM4LTAuMDA3ODEyIDQuMjM4My0xLjkyMTkgNC4yMjI3LTQuMjY1NmwtMC41MTE3Mi0xMDQuOTQgNTEuMzItMC4yNjk1MyAwLjY4NzUgMTA1LjIxdjAuMDM5MDYzYzAuMDA3ODEzIDEuNDkyMiAxLjIzMDUgMi42OTkyIDIuNzI2NiAyLjY5MTRsMTI5LjU5LTAuODQzNzVoMC4wMjczNDRjMS4wMzEyLTAuMDA3ODEzIDEuODcxMS0wLjg1MTU2IDEuODU5NC0xLjg4NjdsLTEuMTgzNi0xODEuMTQgNDkuNDc3IDEuMjM0NGMwLjQ5MjE5IDAuMDA3ODEzIDAuOTgwNDctMC4xNTYyNSAxLjM2MzMtMC41MTU2MiAwLjc3NzM0LTAuNzMwNDcgMC44MjAzMS0xLjk0NTMgMC4wOTc2NTYtMi43MjI3em0tNTEuNjI5IDAuNTk3NjZjLTAuMzc4OTEgMC4wMDc4MTItMC42OTUzMSAwLjMxNjQxLTAuNjk1MzEgMC42OTUzMWwtMS4xNzU4IDE3OS45NS0xMjQuOTgtMC44MTY0MSAwLjY4NzUtMTA1Ljk1YzAuMDA3ODEyLTEuODg2Ny0xLjUtMy40MzM2LTMuMzk0NS0zLjQ0MTRoLTAuMDM5MDYybC01OC40ODgtMC4yOTY4N2MtMi4wNTA4LTAuMDA3ODEzLTMuNzI2NiAxLjY1MjMtMy43MzgzIDMuNjk5MnYwLjAzOTA2M2wtMC41MDc4MSAxMDQuMzgtMTIwLjQ2LTAuNTgyMDMgMC45MjE4Ny0xNzYuOThjMC4wMTk1MzItMy4yMTA5LTIuNTY2NC01LjgyMDMtNS43ODEyLTUuODM5OGgtMC4wNjY0MDZsLTM1LjQ4LTAuMjMwNDcgOTQuODA1LTk1LjU2MiA1Mi40MjItNTMuMTAyIDQ3LjEyMS00OC4yODVjMTAuODkxIDExLjAzOSAyMS43NjYgMjIuMDk4IDMyLjc2MiAzMy4wMzFsMzcuOTkyIDM3Ljk5MiAwLjA5NzY1NiAwLjA5Mzc1YzEuMTUyMyAxLjE0MDYgMi43MzQ0IDEuODQzOCA0LjQ4ODMgMS44MjgxIDMuNDYwOS0wLjAzMTI1IDYuMjYxNy0yLjg3MTEgNi4yMjI3LTYuMzQ3N2wtMC4yOTY4OC0zMy4yMDcgNDcuMTY0LTAuNDIxODggMC42MDE1NiA0My44OTUgMC43NjU2MiA0OS4zNzl2MC4xMzY3MmMwLjAxOTUzMSAwLjk2NDg0IDAuMzk4NDQgMS45MjE5IDEuMTM2NyAyLjY2OGwzOC4yMyAzNy43NzcgMzUuMjAzIDM0LjM5MXoiLz4KPC9zdmc+Cg==" alt="">
+            
                 63739 Street lorem ipsum <br> City, Countary
             </P>
-
+            <p>
+                <img src="https://img.icons8.com/external-justicon-lineal-justicon/344/external-phone-hotel-essentials-justicon-lineal-justicon.png" alt="" id="telephon">
+            +1 123 312 32 23
+                
+            </p>
+            <p class="Color">
+                <img src="https://img.icons8.com/wired/344/email.png" alt="" class="email">
+               <a href="https://mail.google.com/">info@company.com</a>
+            </p>
+            <p class="Color">
+                <img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/344/external-support-seo-dreamstale-lineal-dreamstale.png" alt="" class="support">
+            <a href="https://mail.google.com/">Support@company.com</a>    
+            </p>
         </section>
-
-    </Main>
+        <section>
+            <h1 class="Color">TWITTER FEEDS</h1>
+            <p class="Color"><em>5 hours ago</em></p>
+            <p>Pragmatic, practical font sizing in <br>CSS<a href="http://t.co/K6mOVzL4" class="Color"> http://t.co/K6mOVzL4</a></p>
+        </section>
+        <section>
+            <h1 class="Color">RECENT POSTS</h1>
+            <p class="Color"><em>01 Mar 2012</em></p>
+            <h2>Gallery Post Type</h2>
+            <p>Lorem ipsum sit amet,<br> consectur adipisicing elit. sed et <br>ligula quis urna placerat <br> fermentum....</p>
+        </section>
+        <section>
+            <h1 class="Color">WIDGETIZED FOOTER</h1>
+            <p>Lorem ipsum sit amet,<br> consectur adipisicing elit.Nulla at <br> felis mi, at auctor mi. Donec vel nibh <br> sem. Etiam ut lacus a dui accumsan <br> accumsan. Aenean vel orci elit.</p>
+        </section>
+    </main><hr>
+    <div id="F-img">
+        <nav>
+            Press | Company Blog | Contact Us | About Us <br>
+            Copyright <img class="icon3" src="https://img.icons8.com/material-outlined/344/copyright.png" alt=""> 2011 Company Name, Inc.
+        </nav>
+        <nav>
+          <a href="https://mail.google.com/"><img class="icon2" src="https://img.icons8.com/external-justicon-lineal-justicon/344/external-email-notifications-justicon-lineal-justicon.png" alt=""></a>
+          <a href="https://twitter.com"><img class="icon2" src="https://img.icons8.com/ios/344/stack-of-tweets.png" alt=""></a>
+          <a href="https://github.com/"><img class="icon2" src="https://img.icons8.com/material-outlined/344/github.png" alt=""></a>
+          <a href="https://fr-fr.facebook.com/"><img class="icon2" src="https://img.icons8.com/color/344/facebook-new.png" alt="">
+            <a href="https://www.freecodecamp.org/"><img class="icon2" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/344/external-freecodecamp-a-non-profit-organization-that-consists-of-an-interactive-learning-web-platform-logo-bold-tal-revivo.png" alt=""></a>
+        </nav>
+    </div>
+   
+    <script src="script.js"></script>
 </body>
 </html>
