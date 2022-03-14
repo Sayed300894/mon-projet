@@ -329,6 +329,9 @@ a:link {
         width: 90%;  
         text-align: center; 
     }
+    #part4{
+        height: 10%;
+    }
     #foder{
         display: block;
         background-image: url(images/pattern.webp);
